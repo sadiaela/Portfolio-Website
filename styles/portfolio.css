@@ -57,6 +57,11 @@ nav ul{
 
 }
 
+/* shared styles */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .btn-primary{
     background-color: #FD6E0A;
     border: none;
@@ -66,6 +71,7 @@ nav ul{
     padding: 15px 35px;
     border-radius: 5px;
 }
+
 
 /* banner styles */
 .banner-greeting{
@@ -90,4 +96,41 @@ nav ul{
 }
 .banner-content{
     max-width: 585px;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.about{
+    max-height: 550px;
+    max-width:1140px ;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+   
+}
+
+
+/*about styles  */
+.about{
+    border-radius: 10px;
+}
+/*main styles  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-size: 600px;
 }
