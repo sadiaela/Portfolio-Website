@@ -155,3 +155,31 @@ main{
 .skill-description{
     padding: 30px;
 }
+
+/* Styling Fourth Section */
+.resume-container{
+    display: flex;
+    gap:24px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-title{
+    font-size: 25px;
+     font-weight: bold;
+    
+}
+.experience-sub-title{
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 20px;
+}
+.experience-description{
+    color: rgba(117, 117, 117, 1);
+}
+.resume-margin{
+    margin-top: 50px;
+}
